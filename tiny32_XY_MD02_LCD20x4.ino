@@ -42,8 +42,8 @@ void loop()
     Serial.println("-------------------------------");
     lcd.clear(); 
     lcd.setCursor(0, 0);
-    lcd.printf("Temperature[%d] => %.1f C",id,temperature);
+    lcd.printf("Temp[%d]: %.1fC",id,temperature);
     lcd.setCursor(0, 1);
-    lcd.printf("Humidity[%d] => %.1f%c",id,humidity,37);
+    lcd.printf("Humi[%d]: %.1f%c",id,humidity,37);
     delay(1000);
 }
