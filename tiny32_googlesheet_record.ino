@@ -41,7 +41,6 @@ void sendData(String params);
 
 /*** Define Object variable ***/
 WiFiClientSecure client;
-// WiFiClient client;
 tiny32_v3 mcu;
 
 int B_var = 0;
