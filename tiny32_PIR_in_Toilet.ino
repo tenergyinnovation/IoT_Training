@@ -4,7 +4,7 @@ tiny32_v3 mcu;
 #define DELAY_TIME  10 //เวลาหน่วงของการเปิด relay (วินาที)
 bool pir_status = 0; //ตัวแปรรับค่า PIR sensor
 bool relay_status = 0; //ตัวแปรเก็บค่าสถานะ relay
-int time_cnt = 0; //ตัวแปรนับเวลา
+int time_cnt = 0; //ตัวแปรนับเวลา..
 
 
 void setup()
