@@ -1,5 +1,5 @@
-#include <tiny32.h>
-tiny32 mcu;
+#include <tiny32_v3.h>
+tiny32_v3 mcu;
 #define PIR_PIN 26  //กำหนดขา tiny32 ที่จะนำไปเชื่อมต่อกับ PIR sensor
 #define DELAY_TIME  10 //เวลาหน่วงของการเปิด relay (วินาที)
 bool pir_status = 0; //ตัวแปรรับค่า PIR sensor
